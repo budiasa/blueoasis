@@ -1,0 +1,91 @@
+.title {
+  max-width:800px;
+  margin: 0 auto;
+}
+.title h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.title p {
+  font-weight: 300;
+  color: #777;
+  font-size: 18px;
+}
+
+.bg-short {
+  height:300px;
+  box-sizing: border-box;
+}
+
+.bg-sanur {
+  background: url("https://intomorrow.com/wp-content/uploads/2016/11/Fairmont-Sanur-Beach-Bali-14-1743x800.jpg") no-repeat center center;
+  background-size:cover;
+}
+
+.bg-nusapenida {
+  background: url("http://www.traveltomtom.net/images/nieuwe_indeling/artikels/indonesia/nusa_penida_blog/things_to_do_in_nusa_penida/atuh_beach_nusa_penida_travel_guide.jpg") no-repeat center center;
+  background-size:cover;
+}
+
+.bg-padangbai {
+  background: url("https://ec2-im-1.msw.ms/md/image.php?id=366192&type=PHOTOLAB&resize_type=STREAM_MEDIUM_SQUARE&fromS3") no-repeat center center;
+  background-size:cover;
+}
+.bg-amed {
+  background: url("https://www.balilombokguide.com/wp-content/uploads/2017/07/amed2.jpg") no-repeat center center;
+  background-size:cover;
+}
+.bg-menjangan {
+  background: url("https://4.bp.blogspot.com/-5XId4Hse6oU/WF9ETeumUAI/AAAAAAAATcs/hjf7xwF6JgU6Otggu_ongFcN5WaoW7R3ACLcB/s1600/pulau%2Btabuhan%2Bbwi.jpg") no-repeat center center;
+  background-size:cover;
+}
+.bg-pemuteran {
+  background: url("https://livingnomads.com/wp-content/uploads/2017/01/08/pemuteran-the-new-land-on-the-bali-island12.jpg") no-repeat center center;
+  background-size:cover;
+}
+.box1 {
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+  box-sizing: border-box;
+}
+
+.link {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: 0.2s linear;
+}
+
+.link:hover {
+  background-color:rgba(0,0,0,0.5);
+}
+
+.caption {
+    position: absolute;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: 700;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 100;
+}
+
+.caption h3 {
+  font-size:26px;
+  text-shadow: 2px 2px 4px #000000;
+}

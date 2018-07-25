@@ -1,0 +1,122 @@
+.hero {
+  background: url(https://source.unsplash.com/U6dnImauDAE/1600x900) no-repeat center center;
+  background-size:cover;
+   color: #fff;
+    min-height: 150px;
+    padding: 72px 64px 72px 96px;
+    position: relative;
+}
+
+.maps-full-bleed {
+    margin: 0 calc(50% - 50vw);
+}
+
+.jb-hero-solutions.maps-full-bleed .jb-hero-content {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+
+.hero-title {
+    font-size: 48px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+    text-transform: none;
+    max-width: 500px;
+}
+
+/* footer section */
+.dropup {
+  position:relative;
+}
+.devsite-utility-footer {
+    background: #455a64;
+
+}
+
+.devsite-nav {
+    font-size: 13px;
+
+}
+
+.devsite-utility-footer-nav {
+    color: #fff;
+    overflow: auto;
+    padding: 14px 24px;
+
+}
+
+.devsite-full-site-width{
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.devsite-utility-footer-nav-left {
+    float: left;
+
+}
+
+.devsite-utility-footer-nav-left {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.devsite-utility-footer-language {
+    margin-right: 16px;
+}
+
+.devsite-utility-footer-link {
+    font-weight: 500;
+    margin-right: 16px;
+    color:#fff;
+}
+
+.devsite-utility-footer-link:hover {
+    color:#fff;
+    text-decoration:none;
+}
+
+.devsite-utility-footer-link+.devsite-utility-footer-link::before {
+    content: '|';
+    margin: 0 8px;
+}
+
+/* for mobile view */
+
+@media only screen and (max-width: 1024px) {
+   .maps-cta-section .jb-hero-solutions {
+    padding: 50px 0 0;
+  }
+  .jb-hero-solutions {
+    background-size: 100% auto;
+    background-position: top right;
+    padding: 50px 0 0 0;
+  }
+  .hero {
+    height: auto;
+    min-height: auto;
+  }
+  .maps-cta-section .jb-hero-solutions .jb-hero-content {
+    padding: 20px 26px 40px;
+  }
+  .jb-hero-solutions .jb-hero-content {
+    background: #fff;
+    margin-top: 30%;
+  }
+  .hero-title {
+    color:#424242;
+    font-size: 28px;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+  }
+
+/*   make button use full width */
+  .hero-additional-content .btn {
+    width:100%;
+  }
+}
