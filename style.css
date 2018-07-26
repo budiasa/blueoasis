@@ -2,6 +2,72 @@ body {
   /* background: gray; */
 }
 
+p {
+  font-size:16px!important;
+}
+.contact-banner {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding: 142px 0 92px;
+}
+
+.contact-banner::before, .contact-banner::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: rgba(0, 0, 0, 0.1);
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.contact-banner .contact-content {
+    padding-top: 100px;
+    position: relative;
+    z-index: 9;
+}
+
+.contact-banner .contact-content h2 {
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contact-title h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #454545;
+    padding: 20px 0;
+    line-height: normal;
+}
+
+.address p {
+  line-height: 30px;
+ margin: 0 0 15px;
+font-size: 15px;
+color: #727272;
+font-weight: 400;
+}
+
+.google-maps {
+        position: relative;
+        padding-bottom: 30%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+.google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
 hr {
   border-top: 1px solid #8c8b8b;
 border-bottom: 1px solid #fff;
@@ -193,7 +259,7 @@ img.image_full{
     letter-spacing: normal !important;
     padding-top: 2px !important;
     padding-bottom: 2px !important;
-    color: rgb(72, 72, 72) !important;
+    color: rgb(72, 72, 72);
 }
 
 #sunfish h3 {
@@ -283,7 +349,7 @@ img.image_full{
 /* sunfish research */
 
 /* course */
-#course h2 {
+.text-title {
   font-weight: 800 !important;
     font-size: 25px !important;
     line-height: 30px !important;
@@ -416,6 +482,12 @@ span {
   box-sizing: border-box;
 }
 
+@media (max-width:700px) {
+  .bg-short {
+    height:150px;
+    box-sizing: border-box;
+  }
+}
 .bg-sanur {
   background: url("https://intomorrow.com/wp-content/uploads/2018/07/AYANA-Resort-Spa-02.jpeg") no-repeat center center;
   background-size:cover;
@@ -652,3 +724,264 @@ background-color: #F15245;
   }
 }
 /* footer */
+
+/* banner */
+.bg-beginner {
+  background:url("https://budiasa.github.io/assets/images/surfing-header.jpg");
+  background-size: cover;
+  background-position: left center;
+  height: 250px;
+  position: relative;
+  resize: vertical;
+}
+
+form#booking {
+  border:1px solid gray;
+  border-radius:5px;
+}
+
+.course-title h2 {
+  color: #24bfff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom:1.5rem;
+}
+
+.course-title p {
+  font-size:16px;
+  color: #777;
+  line-height: 1.5;
+  margin: 8px 0 0 0;
+}
+
+ul.single_tour_departure_wrapper {
+/* margin: 0; */
+display: block;
+width: 100%;
+list-style: none;
+margin-top: 40px;
+padding-left:0;
+padding-right:0;
+}
+
+.single_tour_departure_wrapper li {
+    width: 100%;
+    padding: 20px 0 20px 0;
+    border-top: 1px solid #dce0e0;
+    float: left;
+}
+
+.single_tour_departure_wrapper li .single_tour_departure_title {
+    width: 30%;
+    float: left;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.single_tour_departure_wrapper li .single_tour_departure_content {
+    width: 70%;
+    float: right;
+}
+
+.one_half {
+    float: left;
+    width: 48%;
+    margin-right: 3.5%;
+    box-sizing: border-box;
+}
+
+.one_half.last {
+    float: right;
+    width: 48%;
+    margin-right: 0;
+    clear: right;
+}
+
+@media (max-width: 700px) {
+  .one_half, .one_half.last {
+    width: 100%;
+    float: none;
+    clear: both;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 700px) {
+  .pr-5 {
+    padding-right:15px!important;
+  }
+}
+
+#footer a {
+    font-size: 16px;
+    color: #999999;
+    line-height: 22px;
+}
+
+.text-gray {
+      color: red!important;
+}
+
+.head {
+font-size: 16px;
+font-weight: bold;
+padding: 10px 0 10px 10px;
+line-height: normal;
+}
+
+.sub-head {
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight:bold;
+}
+
+.banner-faq {
+background-image: url(https://d2wk7qpm4ouq76.cloudfront.net/images/2016/07/27/faq-header-3522d583-8fd9-4a37-babc-241410059908.jpg);
+background-size: cover;
+background-position: left center;
+height: 190px;
+position: relative;
+resize: vertical;
+}
+
+.banner-faq .container h2 {
+  color: #fff;
+  /* font-size: 3em; */
+  font-weight: bold;
+  padding: 0;
+  margin: 0 0 0 20px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  text-transform: none;
+  position: relative;
+
+
+}
+.accordion {
+/*   width: 60vw; */
+  font-size: 1rem;
+/*   width: 50vw; */
+  margin: 0 auto;
+/*   border-radius: 10px; */
+/*   border: 1px solid #e9ecef; */
+/*   background: white; */
+}
+
+.accordion__item {
+    border: 1px solid #e9ecef;
+}
+.accordion_border {
+/*   border-bottom: 1px solid transparent; */
+}
+
+.accordion-header,
+.accordion-body {
+  width: 100%;
+  background: white;
+/*     border-bottom: 1px solid #373d3e; */
+}
+
+.accordion-header {
+  padding: 1.5em 1.5em;
+/*   border-bottom: 1px solid red; */
+/*   background: #3F51B5; */
+  text-transform: uppercase;
+  color: #666;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: .1em;
+  transition: all .3s;
+}
+
+.accordion-header:hover {
+/*   background: #f2f2f2; */
+  background: #007bff;
+  color:white;
+  position: relative;
+  z-index: 5;
+/*   color: #b3241d; */
+}
+
+.accordion-body {
+  background: #fcfcfc;
+  color: #3f3c3c;
+  display: none;
+}
+
+.accordion-body__contents {
+  padding: 1.5em 1.5em;
+  font-size: .85em;
+}
+
+.accordion__item.active:last-child .accordion-header {
+  border-radius: none;
+}
+
+.accordion:first-child > .accordion__item > .accordion-header {
+/*   border-bottom: 1px solid #373d3e; */
+}
+
+.accordion__item > .accordion-header:after {
+  content: "\f3d0";
+  font-family: IonIcons;
+  font-size: 1.2em;
+  float: right;
+  position: relative;
+  top: -2px;
+  transition: .3s all;
+  transform: rotate(0deg);
+}
+
+.accordion__item.active > .accordion-header:after {
+  transform: rotate(-180deg);
+}
+
+.accordion__item.active .accordion-header {
+  background: #007bff;
+  color:white;
+}
+
+.accordion__item .accordion__item .accordion-header {
+  background: #f1f1f1;
+  color: black;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+/*     padding: 1em; */
+  }
+
+  .accordion {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    height: 100px;
+  }
+
+  .banner .container h2 {
+    font-size:16px;
+  }
+  .btn-danger {
+    width:100%;
+  }
+  .accordion-header {
+    font-size: 0.7em;
+  }
+}
+
+
+/* sunfish */
+.sunfish-banner {
+   background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://source.unsplash.com/k7rZ8wTfABA/1600x900") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding: 142px 0 92px;
+}
+
+  .bg-mola {
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://source.unsplash.com/YDQ7XfbDEkw/1600x900") no-repeat center center;
+    background-size:cover;
+  }
